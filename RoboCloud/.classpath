@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxb-ri-20091104/lib/activation.jar"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxb-ri-20091104/lib/jaxb1-impl.jar"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxb-ri-20091104/lib/jaxb1-impl-src.zip"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxb-ri-20091104/lib/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxb-ri-20091104/lib/jaxb-api-doc.zip"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxb-ri-20091104/lib/jaxb-api-src.zip"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxb-ri-20091104/lib/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxb-ri-20091104/lib/jaxb-impl.src.zip"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxb-ri-20091104/lib/jaxb-xjc.jar"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxb-ri-20091104/lib/jaxb-xjc.src.zip"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxb-ri-20091104/lib/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jersey-bundle-1.5.jar"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/jaxrs-api.jar"/>
+	<classpathentry kind="lib" path="/home/chakri/java/jars/asm-3.1.jar"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/v1"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RC"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

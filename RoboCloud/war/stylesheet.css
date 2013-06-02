@@ -1,0 +1,201 @@
+@CHARSET "ISO-8859-1";
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+body {
+  background: #333;
+}
+ 
+.pic {
+  border: 10px solid #fff;  
+  
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+  overflow: hidden;
+   
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+}
+
+body{
+	padding-top:40px;
+	
+	
+}
+.like {
+	padding:1%;
+	background-color:white;
+	position:absolute;
+	top:225px;
+	width:6.5%; 
+	margin:0 0 0 1.75%;
+	box-shadow:4px 4px 20px black;
+	border-radius: 3px;
+	overflow: none;
+}
+@font-face
+{
+font-family: AMCAP Eternal;
+src: url('../fonts/AMCAP Eternal.ttf');
+}
+@font-face
+{
+font-family: Transformers;
+src: url('../fonts/Transformers.ttf');
+}
+.logo {
+	  	margin: 15px 0;  
+  		padding:10px;
+  		font-size:2em;
+		font-family: amcap eternal;
+		  text-align: center;
+  text-shadow: 0 -2px 1px #000;
+  -webkit-font-smoothing: antialiased;
+		color: #F0F0F0 ;
+		letter-spacing:5px;
+}
+.cool {
+
+	background: #222 url("images/herobg.jpg") repeat;
+	background-color:white;
+background: rgb(169,228,247); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(169,228,247,1) 0%, rgba(15,180,231,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,228,247,1)), color-stop(100%,rgba(15,180,231,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* W3C */
+
+	width:100%; margin:auto;
+	
+	text-align: center;
+  -webkit-font-smoothing: antialiased;
+
+	display:inline-block;
+	background: #222 url("images/bg.png") repeat;
+
+}
+.hero{
+	
+	background: rgb(252,234,187); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,234,187,1)), color-stop(50%,rgba(252,205,77,1)), color-stop(51%,rgba(248,181,0,1)), color-stop(100%,rgba(251,223,147,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* W3C */
+	position: absolute;
+	width:100%;
+	top:110px;
+	color:white;
+	font-family: verdana;
+	
+}
+.hero-unit1 {
+	float: left;
+	display:inline-block;
+	position:relative;
+	margin: 20px 0% 20px 10%;
+}
+.hero-unit2 {
+	float: right;
+	display:inline-block;
+	position:relative;
+	margin: 20px 11% 20px 0%;
+	font-family:verdana;
+	font-weight:bold;
+	font-size:15px;
+	
+}
+.hero-text {
+	font-family:verdana;
+	font-weight:bold;
+	font-size:30px;
+	margin:auto;
+}
+.form{
+	margin:auto;
+}
+.login{
+	float:right;
+	display:inline-block;
+	position:relative;
+	margin: 10px 11% 10px 0;
+	
+}
+
+.abc{
+	background: #222 url("images/bg.png") repeat;
+	background-color:white;
+	position:absolute;
+	top:180px;
+	width:80%; 
+	margin:0 10% 0 10%;
+	box-shadow:4px 4px 20px black;
+	border-radius: 3px;
+}
+.car {
+	width:100%;
+	padding:0 0 0 10%;
+	display:inline-block;
+}
+.abc-text {
+	width:100%;
+	padding:6% 0 0 10%;
+	display:inline-block;
+	font-family:verdana;
+	font-weight:bold;
+	font-size:25px;
+	text-align:center;
+}
+.login-text{
+	
+	font-family:verdana;
+	font-weight:bold;
+	font-size:25px;
+	text-align:center;
+}
+.videos{
+	
+	margin:auto;
+	overflow:hiddern;
+}
+.carousel-inner{
+	  	box-shadow:4px 4px 20px black;
+	border-radius: 3px;
+	
+}
+
+.imag{
+	float:left;
+	width:29.33%;
+	margin:2% 2% 2% 2%;
+}
+
+.imag form{
+	max-width:100%;
+}
+
+		/*FOCUS*/
+.focus {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.focus:hover {
+  border: 20px solid white;
+  border-radius: 50%;
+}
+
